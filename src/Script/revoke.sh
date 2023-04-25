@@ -2,7 +2,7 @@
 NUMBEROFCLIENTS=$(tail -n +2 /etc/openvpn/easy-rsa/pki/index.txt | grep -c "^V")
 if [[ $NUMBEROFCLIENTS == '0' ]]; then
         echo ""
-        echo "You have no existing clients!"
+        echo "Nao ha usuarios para revogar"
         exit 1
 fi
 

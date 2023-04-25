@@ -16,7 +16,22 @@ System.Diagnostics.ProcessStartInfo process = new System.Diagnostics.ProcessStar
     process.UseShellExecute = false;
     process.WorkingDirectory = "/bin";
     process.FileName = "sh";
-    process.Arguments = $"/home/caio/adduser.sh {nome} {email} {country} {state} {local} {org} {unit} {common}";
+    process.Arguments = $"/home/caio/GitHub/pucvpn/src/Script/adduser.sh {nome} {email} {country} {state} {local} {org} {unit} {common}";
+    process.RedirectStandardOutput = true;
+    System.Diagnostics.Process cmd = System.Diagnostics.Process.Start(process);
+    cmd.WaitForExit();
+//  await context.Response.WriteAsync($"Par 1: {p1} Par 2: {p2}");
+});
+
+app.MapGet("/rvpn/{nome}", async context =>
+{
+    var nome = context.Request.RouteValues["nome"];
+
+System.Diagnostics.ProcessStartInfo process = new System.Diagnostics.ProcessStartInfo();
+    process.UseShellExecute = false;
+    process.WorkingDirectory = "/bin";
+    process.FileName = "sh";
+    process.Arguments = $"/home/caio/GitHub/pucvpn/src/Script/revoke.sh {nome}";
     process.RedirectStandardOutput = true;
     System.Diagnostics.Process cmd = System.Diagnostics.Process.Start(process);
     cmd.WaitForExit();

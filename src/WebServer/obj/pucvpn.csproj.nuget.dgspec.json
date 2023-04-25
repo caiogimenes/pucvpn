@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "/home/caio/GitHub/pucvpn/pucvpn.csproj": {}
+    "/home/caio/GitHub/pucvpn/src/WebServer/pucvpn.csproj": {}
   },
   "projects": {
-    "/home/caio/GitHub/pucvpn/pucvpn.csproj": {
+    "/home/caio/GitHub/pucvpn/src/WebServer/pucvpn.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/caio/GitHub/pucvpn/pucvpn.csproj",
+        "projectUniqueName": "/home/caio/GitHub/pucvpn/src/WebServer/pucvpn.csproj",
         "projectName": "pucvpn",
-        "projectPath": "/home/caio/GitHub/pucvpn/pucvpn.csproj",
-        "packagesPath": "/root/.nuget/packages/",
-        "outputPath": "/home/caio/GitHub/pucvpn/obj/",
+        "projectPath": "/home/caio/GitHub/pucvpn/src/WebServer/pucvpn.csproj",
+        "packagesPath": "/home/caio/.nuget/packages/",
+        "outputPath": "/home/caio/GitHub/pucvpn/src/WebServer/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/root/.nuget/NuGet/NuGet.Config"
+          "/home/caio/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net6.0"
