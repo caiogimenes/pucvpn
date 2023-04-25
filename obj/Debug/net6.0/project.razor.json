@@ -1,0 +1,20 @@
+{
+  "SerializedFilePath": "/home/caio/GitHub/pucvpn/obj/Debug/net6.0/project.razor.json",
+  "FilePath": "/home/caio/GitHub/pucvpn/pucvpn.csproj",
+  "Configuration": {
+    "ConfigurationName": "MVC-3.0",
+    "LanguageVersion": "6.0",
+    "Extensions": [
+      {
+        "ExtensionName": "MVC-3.0"
+      }
+    ]
+  },
+  "ProjectWorkspaceState": {
+    "TagHelpers": [],
+    "CSharpLanguageVersion": 1000
+  },
+  "RootNamespace": "pucvpn",
+  "Documents": [],
+  "SerializationFormat": "0.3"
+}
