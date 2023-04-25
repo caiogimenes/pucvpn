@@ -1,12 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "MCDBt1XwfKRISfVXVj1QyGFOAFDTlqWfyKNUXCfa7IdTC4w+NnwXH1hCM5q47qHMsEWtRg7FuoGbi3acaMNmRw==",
+  "dgSpecHash": "3Xok3AGtjstRQeCEE6Jl83F8usviotqNiZuReqbGoNuTTMvYMx0Nda9LkitV1xAu7ZS9G1VHB+yTj3M0CwqVIQ==",
   "success": true,
   "projectFilePath": "/home/caio/GitHub/pucvpn/src/WebServer/pucvpn.csproj",
   "expectedPackageFiles": [
-    "/home/caio/.nuget/packages/microsoft.netcore.app.ref/6.0.8/microsoft.netcore.app.ref.6.0.8.nupkg.sha512",
-    "/home/caio/.nuget/packages/microsoft.aspnetcore.app.ref/6.0.8/microsoft.aspnetcore.app.ref.6.0.8.nupkg.sha512",
-    "/home/caio/.nuget/packages/microsoft.netcore.app.host.linux-x64/6.0.8/microsoft.netcore.app.host.linux-x64.6.0.8.nupkg.sha512"
+    "/root/.nuget/packages/microsoft.netcore.app.ref/6.0.8/microsoft.netcore.app.ref.6.0.8.nupkg.sha512",
+    "/root/.nuget/packages/microsoft.aspnetcore.app.ref/6.0.8/microsoft.aspnetcore.app.ref.6.0.8.nupkg.sha512",
+    "/root/.nuget/packages/microsoft.netcore.app.host.linux-x64/6.0.8/microsoft.netcore.app.host.linux-x64.6.0.8.nupkg.sha512"
   ],
   "logs": []
 }

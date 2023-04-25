@@ -8,7 +8,7 @@
     "net6.0": []
   },
   "packageFolders": {
-    "/home/caio/.nuget/packages/": {}
+    "/root/.nuget/packages/": {}
   },
   "project": {
     "version": "1.0.0",
@@ -16,11 +16,11 @@
       "projectUniqueName": "/home/caio/GitHub/pucvpn/src/WebServer/pucvpn.csproj",
       "projectName": "pucvpn",
       "projectPath": "/home/caio/GitHub/pucvpn/src/WebServer/pucvpn.csproj",
-      "packagesPath": "/home/caio/.nuget/packages/",
+      "packagesPath": "/root/.nuget/packages/",
       "outputPath": "/home/caio/GitHub/pucvpn/src/WebServer/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "/home/caio/.nuget/NuGet/NuGet.Config"
+        "/root/.nuget/NuGet/NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net6.0"
