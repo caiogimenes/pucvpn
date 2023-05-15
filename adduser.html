@@ -1,93 +1,122 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>Formulário Minimalista</title>
+  <title>Formulário</title>
   <style>
+    @import url('https://fonts.googleapis.com/css2?family=Cutive+Mono&display=swap');
+
     body {
       font-family: Arial, sans-serif;
       background-color: #f1f1f1;
-    }
-    
-    .container {
-      max-width: 400px;
-      margin: 0 auto;
+      margin: 0;
       padding: 20px;
-      background-color: #ffffff;
+    }
+
+    .container {
+      display: flex;
+      justify-content: space-between;
+      background-color: #fff;
+      padding: 20px;
       box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    }
-    
-    .container h2 {
-      text-align: center;
-    }
-    
-    .form-group {
-      margin-bottom: 20px;
-    }
-    
-    .form-group label {
-      display: block;
-      margin-bottom: 5px;
-      font-weight: bold;
-    }
-    
-    .form-group input[type="text"] {
-      width: 100%;
-      padding: 8px;
-      border: 1px solid #ccc;
       border-radius: 4px;
     }
-    
-    .form-group input[type="submit"] {
+
+    .left {
+      flex-basis: 50%;
+      padding-right: 10px;
+    }
+
+    .right {
+      flex-basis: 50%;
+      padding-left: 10px;
+    }
+
+    .input-group {
+      margin-bottom: 10px;
+    }
+
+    label {
+      display: block;
+      font-weight: bold;
+      margin-bottom: 5px;
+    }
+
+    input[type="text"] {
       width: 100%;
       padding: 10px;
-      background-color: #4CAF50;
-      color: #ffffff;
+      font-size: 16px;
+      border-radius: 4px;
+      border: 1px solid #ccc;
+    }
+
+    input[type="text"]:focus {
+      outline: none;
+      border-color: #0099ff;
+      box-shadow: 0 0 5px rgba(0, 153, 255, 0.5);
+    }
+
+    input[type="submit"] {
+      background-color: #0099ff;
+      color: #fff;
+      padding: 10px 20px;
       border: none;
       border-radius: 4px;
+      font-size: 16px;
       cursor: pointer;
+      transition: background-color 0.2s;
+    }
+
+    input[type="submit"]:hover {
+      background-color: #0086e6;
+    }
+
+    h1 {
+      font-family: 'Cutive Mono', monospace;
+      font-size: 24px;
+      color: #0099ff;
+      margin-bottom: 20px;
     }
   </style>
 </head>
 <body>
+  <h1>CITOPHARMA</h1>
   <div class="container">
-    <h2>Formulário</h2>
-    <form>
-      <div class="form-group">
-        <label for="campo1">Campo 1:</label>
-        <input type="text" id="campo1" name="campo1">
+    <div class="left">
+      <div class="input-group">
+        <label for="field1">Campo 1:</label>
+        <input type="text" id="field1">
       </div>
-      <div class="form-group">
-        <label for="campo2">Campo 2:</label>
-        <input type="text" id="campo2" name="campo2">
+      <div class="input-group">
+        <label for="field2">Campo 2:</label>
+        <input type="text" id="field2">
       </div>
-      <div class="form-group">
-        <label for="campo3">Campo 3:</label>
-        <input type="text" id="campo3" name="campo3">
+      <div class="input-group">
+        <label for="field3">Campo 3:</label>
+        <input type="text" id="field3">
       </div>
-      <div class="form-group">
-        <label for="campo4">Campo 4:</label>
-        <input type="text" id="campo4" name="campo4">
+      <div class="input-group">
+        <label for="field4">Campo 4:</label>
+        <input type="text" id="field4">
       </div>
-      <div class="form-group">
-        <label for="campo5">Campo 5:</label>
-        <input type="text" id="campo5" name="campo5">
+    </div>
+    <div class="right">
+      <div class="input-group">
+        <label for="field5">Campo 5:</label>
+        <input type="text" id="field5">
       </div>
-      <div class="form-group">
-        <label for="campo6">Campo 6:</label>
-        <input type="text" id="campo6" name="campo6">
+      <div class="input-group">
+        <label for="field6">Campo 6:</label>
+        <input type="text" id="field6">
       </div>
-      <div class="form-group">
-        <label for="campo7">Campo 7:</label>
-        <input type="text" id="campo7" name="campo7">
+      <div class="input-group">
+        <label for="field7">Campo 7:</label>
+        <input type="text" id="field7">
       </div>
-      <div class="form-group">
-        <label for="campo8">Campo 8:</label>
-        <input type="text" id="campo8" name="campo8">
+      <div class="input-group">
+        <label for="field8">Campo 8:</label>
+        <input type="text" id="field8">
       </div>
-      <div class="form-group">
-        <input type="submit" value="Enviar">
-      </div>
-    </form>
+    </div>
   </div>
 </body>
 </html>
