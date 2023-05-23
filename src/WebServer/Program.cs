@@ -36,7 +36,7 @@ System.Diagnostics.ProcessStartInfo process = new System.Diagnostics.ProcessStar
     // Executa
     System.Diagnostics.Process cmd = System.Diagnostics.Process.Start(process);
     cmd.WaitForExit();
-//  await context.Response.WriteAsync($"Par 1: {p1} Par 2: {p2}");
+    await context.Response.WriteAsync($"<h1>Concluido</h1>");
 });
 
 // Usa o método MapGet para criar um rota da pagina que passa variaveis ao servidor para revogar um certificado
@@ -59,7 +59,7 @@ System.Diagnostics.ProcessStartInfo process = new System.Diagnostics.ProcessStar
     // Executa
     System.Diagnostics.Process cmd = System.Diagnostics.Process.Start(process);
     cmd.WaitForExit();
-//  await context.Response.WriteAsync($"Par 1: {p1} Par 2: {p2}");
+    await context.Response.WriteAsync($"<h1>Concluido</h1>");
 });
 
 // Executa
