@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Formulário</title>
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Cutive+Mono&display=swap');
+
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #6cf0da;
+      margin: 0;
+      padding: 20px;
+    }
+
+    .container {
+      display: flex;
+      justify-content: space-between;
+      background-color: #fff;
+      padding: 100px;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+      border-radius: 50px;
+    }
+
+    .left {
+      flex-basis: 40%;
+      padding-right: 20px;
+    }
+
+    .right {
+      flex-basis: 40%;
+      padding-left: 20px;
+    }
+
+    .input-group {
+      margin-bottom: 10px;
+    }
+
+    label {
+      display: block;
+      font-weight: bold;
+      margin-bottom: 5px;
+    }
+
+    input[type="text"] {
+      width: 100%;
+      padding: 10px;
+      font-size: 16px;
+      border-radius: 4px;
+      border: 1px solid #ccc;
+    }
+
+    input[type="text"]:focus {
+      outline: none;
+      border-color: #0099ff;
+      box-shadow: 0 0 5px rgba(0, 153, 255, 0.5);
+    }
+
+    input[type="submit"] {
+      background-color: #0099ff;
+      color: #fff;
+      padding: 10px 20px;
+      border: none;
+      border-radius: 4px;
+      font-size: 16px;
+      cursor: pointer;
+      transition: background-color 0.2s;
+    }
+
+    input[type="submit"]:hover {
+      background-color: #0086e6;
+    }
+
+    h1 {
+      font-family: 'Cutive Mono', monospace;
+      font-size: 24px;
+      color: #0099ff;
+      margin-bottom: 20px;
+    }
+
+    button {
+      background-color: #eb5454;
+      border-radius: 15px;
+      color: rgb(250, 247, 247);
+      padding: 15px 32px;
+      text-align: center;
+      text-decoration: none;
+      display: inline-block;
+      font-size: 16px;
+    }
+    .img {
+      text-align: center;
+    }
+  </style>
+</head>
+<body>
+  <div class="img">
+    <img src="img/form.png" alt="form" style="width: 80px;">
+  </div>
+  <div class="container">
+    <div class="left">
+      <div class="input-group">
+        <label for="var1">Nome</label>
+        <input type="text" id="var1">
+      </div>
+      <button type="submit" onclick="Criar()">Revogar Certificado</button>
+    </div>
+  </div>
+</body>
+</html>
