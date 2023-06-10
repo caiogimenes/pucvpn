@@ -8,9 +8,9 @@ function Criar () {
     var7 = document.getElementById("var7").value;
     var8 = document.getElementById("var8").value;
     window.location = "https://localhost:7114/vpn/"+var1+"/"+var2+"/"+var3+"/"+var4+"/"+var5+"/"+var6+"/"+var7+"/"+var8;
-}
+};
 
 function Revogar () {
     var1 = document.getElementById("var1").value;
-    window.location = "https://localhost:7114/vpn/"+var1;
+    window.location = "https://localhost:7114/rvpn/"+var1;
 }
