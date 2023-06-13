@@ -1,5 +1,14 @@
 # OpenVPN - PUC Minas - Eixo 3
 
-## Requisitos:
+## Requisitos
 ### .NET WebServer Framework
 ### Linux OS
+
+## Manual de instalação e execução
+### Download do código fonte
+### Mudar para o diretório do código
+### Executar no terminal o comando "dotnet run"
+
+## Manual de uso
+### Criar novos certificados
+#### Acessar a página de criação
