@@ -12,3 +12,9 @@
 ## Manual de uso
 ### Criar novos certificados
 #### Acessar a página de criação
+#### Preencher os dados referentes a criação
+#### Clicar em Criar
+
+### Revogar novos certificados
+#### Preencher o nome do certificado
+#### Clicar em Revogar
